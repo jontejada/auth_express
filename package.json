@@ -1,0 +1,32 @@
+{
+  "name": "authentication_app",
+  "version": "0.1.0",
+  "description": "authentication practice",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jontejada/auth_express.git"
+  },
+  "author": "Jon Tejada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jontejada/auth_express/issues"
+  },
+  "homepage": "https://github.com/jontejada/auth_express#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "dotenv": "^1.2.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "knex": "^0.9.0",
+    "locus": "^1.2.0",
+    "morgan": "^1.6.1",
+    "nodemon": "^1.8.1",
+    "pg": "^4.4.3"
+  }
+}
